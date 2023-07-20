@@ -1,0 +1,143 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url("https://wallpapers.com/images/featured/money-heist-segtwbhffwy01w82.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  height: 800px;
+  
+}
+.navbar{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  
+  
+}
+.navbar-ulist{
+  list-style: none;
+  display: flex;
+  padding-left: 12rem;
+  
+}
+.navbar ul li{
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.navbar ul li:hover{
+  color: rgb(255, 0, 13);
+  cursor: pointer;
+}
+.headings{
+  color: white;
+}
+
+.search{ 
+  cursor: pointer;
+  float:right;
+}
+label{
+  margin-top: 11px;
+  margin-right: 20px;
+}
+
+.cards{
+  height: 360px;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+  
+  
+}
+.img_card{
+  
+  border-radius: 10px;
+  width: 180px ;
+  height: 230px;
+  transition: all 0.5s ease;
+}
+.img_card:hover{
+
+  transform: scale(1.2);
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+}
+.TitelPractice{
+  margin-top: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.TitelPractice span{
+  padding: 5px;
+  background-color: rgb(255, 0, 13);;
+}
+.TitelPractice_para{
+  
+  font-weight: bold;
+  font-size: 35px;
+}
+.search input{
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+.btn1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  
+  /* margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  color: white; */
+  }
+  .btn1_btn1{
+    padding: 6px 40px;
+    margin: 10px 20px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+
+  }
+  .btn1_btn1:hover{
+    background-color: grey;
+    color: rgb(217, 217, 217);
+    cursor: pointer;
+  }
+  
+  .btn1_btn2{
+    padding: 6px 40px;
+    margin: 10px 20px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  .btn1_btn2:hover{
+    background-color: grey;
+    color: rgb(217, 217, 217);
+    cursor: pointer;
+  }
+ 
+
+
+

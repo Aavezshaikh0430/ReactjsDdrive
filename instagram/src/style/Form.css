@@ -1,0 +1,96 @@
+body{   
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: palevioletred;
+}
+.container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+.form{margin-top: 25px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid rgb(181, 177, 177);
+    height: 500px;
+    width: 500px;
+}
+.formImg{
+    text-align: center;
+}
+.form input{
+    width: 280px;
+    height: 30px;
+    font-size: 13px;
+}
+
+.form button{
+    width: 290px;
+    height: 28px;
+    border-style: none;
+    background-color: #77A7FF;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.OR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    
+}
+.Or1{
+    width: 23%;
+}
+.anchorTag{
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.anchorTag a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color:  #1D3C78;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.forgettonPass a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.singup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid grey;
+    background-color: white;
+    font-size: 14px;
+    height: 65px;
+}
+.singup a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer{
+    margin-top: 90px;
+    display: flex;
+    gap: 32px;
+    cursor: pointer;
+}
+
+
+
+
+

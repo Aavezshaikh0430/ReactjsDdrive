@@ -1,0 +1,26 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.expenseCard{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 5px rgb(105, 103, 103);
+
+
+}
+
+.Card1{
+   
+    height: 3rem;
+}
