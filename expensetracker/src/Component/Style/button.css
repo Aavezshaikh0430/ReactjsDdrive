@@ -1,0 +1,55 @@
+.buttonbck{
+    margin-top: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    
+    
+    
+    
+    
+}
+.btn-1  {
+    
+    margin-top: 50px;
+    padding: 20px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 3px 3px 3px 5px rgb(105, 103, 103);
+    box-shadow: 3px 3px 10px #8f8d8d;
+    border-radius: 10px;
+    color: #800060;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    
+   }
+
+   .btn-1 {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  }
+  .btn-1:hover{
+    font-size: 21px;
+  }
+
+  .inputList{
+    margin-top: 70px;
+    padding: 0 5rem;
+    height: 500px;
+    
+  }
+  .inputList input{
+    margin: 40px;
+    padding: 20px 180px;
+    border: none;
+    box-shadow: 1px 1px 1px 3px rgb(105, 103, 103);
+    border-radius: 10px;
+    font-size: 20px;
+   
+  }
+  

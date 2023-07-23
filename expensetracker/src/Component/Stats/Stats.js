@@ -10,9 +10,9 @@ function Stats (){
     return(
         <>
         <div className="cards">
-            <Cards title="Expense"/>
-            <Cards title="Buget"/>
             
+            <Cards title="Expense"/>
+            <Cards title="Budget"/>
             <Cards title="Safe to spend"/>
 
         </div>
