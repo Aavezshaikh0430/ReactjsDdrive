@@ -2,7 +2,11 @@
 
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    
+    
 }
+
 .navbar{
     
     display: flex;
@@ -20,6 +24,7 @@
 }
 .statsheading{
     margin-top: 50px;
+    
 }
 
 .statsCard{
@@ -36,8 +41,8 @@
 }
 .ExpenseHeadingbtn
 {
-    background-color: #f1f1f1;
-    color: black;
+    background-color: #714dea;
+    color: white;
     font-size: 16px;
     padding: 10px 30px;
     border: none;
@@ -84,8 +89,9 @@
   }
   .expenseDiv input{
     margin-top: 20px;
-    padding: 10px  50px;
+    padding: 10px  90px;
     font-size: 20px;
     border-radius: 6px;
     border: none;
+   
   }

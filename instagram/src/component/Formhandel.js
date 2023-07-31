@@ -44,7 +44,9 @@ class Formhandel extends React.Component{
     // }
 
 
-
+handel=()=>{
+    console.log(    this)
+}
 
 
 
