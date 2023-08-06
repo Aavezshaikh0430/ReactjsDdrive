@@ -1,36 +1,122 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container{
-    
-    background-color: antiquewhite;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top:50px;
-    padding: 50px;
+
+.mainContainer {
+    background-color: aqua;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    height: 800px;
 }
-.container-heading{
-    font-size: 35px;
+
+.container {
+
+    background-color: rgb(4, 3, 60);
+    height: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    padding: 50px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    width: 50%;
+    border-radius: 20px;
 }
-.container-input{
-padding: 10px 50px;
-font-size: 20px;
-font-weight: bold;
-border-radius: 4px;
-cursor: pointer;
+
+.containerHeading {
+    font-size: 40px;
+    color: white;
+    text-align: center;
 }
-.cotainer-button{
+
+.inputdiv{
+    text-align: center;
+}
+
+.container-input {
+    margin-right: 30px;
+    margin-top: 40px;
     padding: 10px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container-input:hover{
+    background-color: aliceblue;
+}
+
+.container-button {
+    background-color: rgb(16, 181, 33);
+    padding: 12px 50px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
     font-weight: bold;
 }
-.cotainer-button:hover{
-    background-color: rgb(234, 147, 221);
+
+.container-button:hover {
+    background-color: green;
+
+}
+.list-heading{
+    padding: 0 7rem;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.listDatabtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.listData{
+    margin-left: 45px;
+    padding: 12px;
+    margin-top: 30px;
+    background-color: antiquewhite;
+    color:black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 60px;
+    width: 50%;
+    border-radius: 5px;
+   
+}
+.container-button2{
+    margin-top: 29px;
+    background-color: rgb(16, 181, 33);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+   
+
+}
+.container-button2:hover{
+    background-color: red;
+}
+.container-button3{
+    margin-top: 29px;
+    background-color: rgb(16, 181, 33);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.container-button3:hover{
+    background-color: red;
 }
