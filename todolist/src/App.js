@@ -1,19 +1,19 @@
-import React from "react";
-import './style/index.css';
+import React from 'react'
+import { Route, Routes } from 'react-router'
+import Home from './component/Home'
+import About from './component/About'
+import Contact from './component/Contact'
+
 
 function App() {
   return (
-    < div className="mainDiv">
-    <div className="centerDiv">
-     
-     <br/>
-     <h1>ToDo List</h1>
-     <br/>
-     <input type='text' placeholder="Add a Items"/>
-     <button> + </button>
-     </div>
-    </div>
-  );
+   <Routes>
+    <Route path='/home' element={<Home/>}/>
+    <Route path='/about' element={<About/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+    
+   </Routes>
+  )
 }
 
-export default App;
+export default App
